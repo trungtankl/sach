@@ -1,0 +1,135 @@
+#wrapper{
+    margin: 0 auto;
+    width: 900px;
+}
+body{
+   margin: 0;
+   font-family: Tahoma,Helvetica,Verdana,Arial;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 17px;
+}
+h3{
+    font-size: 13px;
+    font-weight: 200;
+}
+/* Header */
+#header{
+    background-color: #292828;
+    height: 6em;
+}
+    #header h1{
+        color: #fff;
+        float: left;
+        padding-left: 1em;
+    }
+    #header a{
+        color: #fff;
+        text-decoration: none;
+    }
+    #header .menu{
+        float: right;
+    }
+        #header ul{
+            padding: 2em 0 0 0;
+        }
+        #header .menu li{
+            list-style: none;
+            display: inline;
+            padding: 0.3em 1em;
+        }
+        #header .active{
+            background: #404040;
+            border-radius: 2px;
+        }
+/* Sidebar */
+#sidebar {
+    float: left;
+    width: 29%;
+}
+    #sidebar .border{
+        border: solid 1px lightgrey;
+        border-radius: 5px;
+        border-top-width: 0;
+    }
+    #sidebar h2 {
+        background-color: #444444;
+        color: #fff;
+        padding: 0.5em;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    } 
+    #sidebar ul{
+        list-style: none;
+        padding: 0;
+    }
+    #sidebar ul:nth-child(2) > li:hover{
+        background-color: rgb(230, 227, 227);
+        cursor: pointer;
+    }
+    #sidebar ul:last-child p{
+        padding: 0 1em;
+    }
+    #sidebar li a{
+        text-decoration: none;
+        line-height: 2em;
+        color: inherit;
+        padding-left: 1em;
+    }
+    #search fieldset{
+        border: none;
+    }
+
+/* Main */
+#main{
+    float: right;
+    width: 70%;
+    padding: 0;
+}
+    #main .content{
+        border: solid 1px lightgrey;
+        border-radius: 5px;    
+        border-top-width: 0;
+    }
+        #main .content div{
+            display: inline-block;
+            max-width: 9em;
+            text-align: center;
+            vertical-align: top;
+            padding: 0.4em;
+        }    
+        #main .content h2{
+            background-color: #444444;
+            padding: 0.5em;
+            color: #fff;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        #main .content img{
+            width: 8em;     
+        }
+
+/* Footer */
+#footer {
+    clear: both;
+    margin: 1em;
+}
+#footer .copyright{
+    clear: both;  
+    text-align: center;
+    padding-top: 1em;
+}
+#footer .copyright p:before{
+    content: '';
+    border-top: solid 1px lightgray;
+    display: block;
+    text-align: center;
+    padding: 0.5em;
+}
+#footer .copyright p{
+    padding: 0 30em;
+}
+   
